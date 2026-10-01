@@ -11,6 +11,7 @@
  align-items: center;
  flex-direction: column;
  gap: 72px;
+ padding: 0 12px;
 }
 
 .team-item {
@@ -61,7 +62,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
-  gap: 48px 24px;
+  gap: 64px 24px;
 
   padding: 0 92px;
  }

@@ -28,7 +28,7 @@
  border-radius: 4px;
  padding: 72px 24px 24px;
  min-height: 582px;
- max-width: 408px;
+ max-width: 288px;
  width: 100%;
  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
  background: #fcfcfc;
@@ -190,17 +190,20 @@
  line-height: 1.17;
  letter-spacing: 0.04em;
  color: #8e8f99;
+
+ display: flex;
+ align-items: center;
+ gap: 8px;
 }
 
 .modal-form-checkbox {
  display: inline-flex;
  justify-content: center;
  align-items: center;
+ flex-shrink: 0;
 
  width: 16px;
  height: 16px;
- margin-right: 8px;
-
 
  border-radius: 2px;
  border: 1px solid rgba(46, 47, 66, 0.4);
@@ -228,3 +231,14 @@
  color: #f4f4fd;
  opacity: 0;
 }
+
+
+@media screen and (min-width: 768px) {
+
+ .modal {
+  max-width: 408px;
+ }
+
+}
+
+@media screen and (min-width: 1158px) {}
