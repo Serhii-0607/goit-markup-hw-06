@@ -36,7 +36,7 @@
  }
 
  .main-nav {
-  margin-right: 129px;
+  margin-right: auto;
  }
 
  .main-nav,
@@ -90,7 +90,7 @@
 }
 
 @media screen and (min-width: 1158px) {
- .logo {
+ .header .container .logo {
   margin-right: 76px;
  }
 
