@@ -29,6 +29,7 @@
 .features-descr {
  text-align: left;
  padding-right: 24px;
+ font-weight: 500;
 }
 
 
@@ -49,7 +50,6 @@
  .features-descr {
   text-align: left;
   padding-right: 0;
-  font-weight: 500;
  }
 
  .features-capture {
@@ -79,8 +79,12 @@
  }
 
  .features-capture {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+ }
+
+ .features-descr {
+  font-weight: 400;
  }
 }
