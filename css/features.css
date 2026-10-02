@@ -49,6 +49,11 @@
  .features-descr {
   text-align: left;
   padding-right: 0;
+  font-weight: 500;
+ }
+
+ .features-capture {
+  text-align: left;
  }
 }
 
@@ -59,10 +64,6 @@
 
  .features-item {
   width: calc((100% - 24px * 3) / 4);
- }
-
- .features-capture {
-  text-align: left;
  }
 
  .feature-icon-wrapper {
@@ -78,7 +79,7 @@
  }
 
  .features-capture {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 20px;
   line-height: 1.2;
  }
